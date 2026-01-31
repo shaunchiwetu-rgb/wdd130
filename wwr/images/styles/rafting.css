@@ -1,78 +1,97 @@
-<link rel="stylesheet" href="../styles/styles.css">
-
-:root {
-    --primary-color: #055a05; /* forest green */
-  --secondary-color:#f4a261; /* warm sand */
-  --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
-  --heading-font: "Times New Roman", "Georgia", serif;
-  --body-font: Arial, Helvetica, sans-serif;
-}
-
-
-
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-  }
-
-  
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* VARIABLES */
+:root {
+  --primary-color: #004e64;
+  --accent-color: #00a5cf;
+  --text-color: #222;
+}
 
+/* GENERAL */
 body {
-  font-family: var(--body-font);
-  color: var(--accent1-color);
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
 }
 
-header, main, footer {
-  width: 840px;
-  margin: 0 auto;
+header,
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
 }
 
-h1, h2 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
+/* NAVIGATION */
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
 }
 
-nav, p, section, article {
-  margin: 16px;
-  padding: 8px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
- 
-Check Your Understanding
+/* HERO */
 .hero {
   position: relative;
 }
 
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  display: block;
+}
 
-  h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
-  width: 100%;
-  padding: 16px;
-  text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+  left: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  max-width: 400px;
 }
 
 .hero article img {
   float: right;
-  width: 125px;
+  width: 120px;
+  margin-left: 1rem;
 }
 
+/* SECTIONS */
+section {
+  padding: 2rem;
+}
 
+section h2 {
+  margin-bottom: 1rem;
+}
+
+/* FIGURES */
+figure {
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+}
+
+figure img {
+  width: 200px;
+}
+
+/* FOOTER */
+.socialmedia a {
+  text-decoration: none;
+}
+
+.socialmedia img {
+  width: 32px;
+  margin-right: 0.5rem;
+}
