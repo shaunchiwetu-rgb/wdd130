@@ -18,6 +18,7 @@ body {
   color: var(--text-color);
 }
 
+/* HEADER & FOOTER */
 header,
 footer {
   background-color: var(--primary-color);
@@ -25,14 +26,14 @@ footer {
   padding: 1rem;
 }
 
-/* NAVIGATION */
+/* NAV LINKS */
 nav a {
   color: white;
-  margin-right: 1rem;
   text-decoration: none;
+  margin-right: 1rem;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero {
   position: relative;
 }
@@ -46,9 +47,9 @@ nav a {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.5rem 1rem;
+  color: white;
 }
 
 .hero article {
@@ -71,10 +72,6 @@ section {
   padding: 2rem;
 }
 
-section h2 {
-  margin-bottom: 1rem;
-}
-
 /* FIGURES */
 figure {
   display: inline-block;
@@ -86,7 +83,7 @@ figure img {
   width: 200px;
 }
 
-/* FOOTER */
+/* SOCIAL MEDIA */
 .socialmedia a {
   text-decoration: none;
 }
@@ -94,4 +91,8 @@ figure img {
 .socialmedia img {
   width: 32px;
   margin-right: 0.5rem;
+}
+.socialmedia img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
 }
