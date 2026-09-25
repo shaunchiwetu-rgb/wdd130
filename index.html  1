@@ -8,7 +8,7 @@
     <meta name="description "
       content="I am Student learning Software Development , i am currently learning WDD130 Wed Fundaments">
     <meta name="author" content="Shaun Chiwetu">
-    <link rel="stlesheet" href="styles/styles.css>
+    <link rel="stylesheet" href="styles/styles.css>
 </head>
 
     <body>
@@ -24,10 +24,24 @@
             <h1>Shaun Chiwetu | WDD 130.</h1>
             <img src="images/profile.jpeg" alt="Shaun Tapiwa Chiwetu" width="200">
             <p>Hello! My name is Shaun i am studying Software Development i like coding and learning
-                new skills and deferent coding languages.
+                new skills and deferent coding languages.My goals are to become senior SoftWare
+                engineer
+                I want to have my own Tech businesses.
             </p>
+
+            <ul>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple"
+                      target="_blank" rel="noopener">Philadelphia Pennsylvania Temple</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple"
+                      target="_blank" rel="noopener">Paris France Temple</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/berlin-germany-temple"
+                      target="_blank" rel="noopener">Berlin Germany Temple</a></li>
+            </ul>
     </main>
     <aside>
+        <aside class="box">
+            <ul class="box"></ul>
+        </aside>
         <h2>Gauteng</h2>
         <img
           src="https://cdn.britannica.com/49/100349-050-24E63356/view-central-business-district-Johannesburg-South-Africa.jpg"

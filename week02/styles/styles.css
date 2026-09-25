@@ -1,4 +1,10 @@
-css nav {
+css * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
     background-color: #333;
     padding: 1em;
 }
@@ -24,15 +30,23 @@ main img {
     border: 1px solid #333;
     padding: 5px;
     box-shadow: 0 0 10px #888;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    padding: 0;
 }
 
 aside {
-    width: 840px;
+    width: 20em;
     margin: 20px auto;
     border: 1px solid #333;
     padding: 20px;
     background-color: #eee;
     color: #333;
+    text-align: center;
 }
 
 aside img {
@@ -40,12 +54,17 @@ aside img {
     height: auto;
 }
 
-p {
-    padding: 0;
-}
-
 footer {
     margin-top: 30px;
     border-top: 1px solid #333;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
