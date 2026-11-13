@@ -1,11 +1,12 @@
 :root {
     --primary-color: #1B4965;
-    --secondary-color: #010f13;
-    --accent1-color: #00080e;
-    --accent2-color: #FFFFFF;
+    --secondary-color: #a9b8bd;
+    --accent1-color: #060607;
+    --accent2-color: #302b2b;
 
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
+    
 }
 
 * {
@@ -32,6 +33,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    background-color: var(--secondary-color);
 }
 
 .socialmedia a {
