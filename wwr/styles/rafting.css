@@ -232,3 +232,85 @@ footer p {
         gap: 15px;
     }
 }
+
+/* CONTACT PAGE */
+
+.contact-info {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.contact-info iframe {
+    border: none;
+    margin-top: 20px;
+}
+
+/* EMPLOYEE PROFILES */
+
+.employees {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.employees figure {
+    display: inline-block;
+    margin: 20px;
+}
+
+.employees img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.employees figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #CAE9FF;
+    border-radius: 8px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.contact-form fieldset {
+    padding: 15px;
+}
+
+.contact-form fieldset label {
+    display: block;
+    margin: 8px 0;
+}
+
+.contact-form button {
+    background-color: #1B4965;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #62B6CB;
+}
