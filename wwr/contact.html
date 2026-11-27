@@ -25,7 +25,7 @@
 
     <main>
 
-        <h1>Contact Us</h1>
+        <h1>Contact Rapids Rafting Company</h1>
 
 <section class="contact-info">
 
@@ -80,24 +80,27 @@
         <input type="email" id="email" name="email" required>
 
         <fieldset>
-            <legend>What is your message about?</legend>
+    <legend>What is your message about?</legend>
 
-            <label>
-                <input type="radio" name="purpose" value="general inquiry">
-                General Inquiry
-            </label>
+    <label for="general">
+        <input type="radio" id="general" name="purpose"
+        value="general inquiry">
+        General Inquiry
+    </label>
 
-            <label>
-                <input type="radio" name="purpose" value="reservation question">
-                Reservation Question
-            </label>
+    <label for="reservation">
+        <input type="radio" id="reservation" name="purpose"
+        value="reservation question">
+        Reservation Question
+    </label>
 
-            <label>
-                <input type="radio" name="purpose" value="website suggestion">
-                Website Suggestion
-            </label>
+    <label for="suggestion">
+        <input type="radio" id="suggestion" name="purpose"
+        value="website suggestion">
+        Website Suggestion
+    </label>
 
-        </fieldset>
+</fieldset>
 
         <label for="message">Your Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
